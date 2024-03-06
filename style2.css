@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+.container {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+.dark23 {
+    background-color: rgb(9, 9, 29) !important;
+    color: #fff !important;
+}
